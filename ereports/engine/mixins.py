@@ -53,7 +53,7 @@ class XlsRender(object):
             'TimeColumn': 'hh:mm',
             'IntegerColumn': '#,##',
             'DecimalColumn': '#,##0.00',
-            'BooleanColumn': 'boolean',
+            'BooleanColumn': 'general',  # 'boolean' produce a warning in Excel.
             'CurrencyColumn': '"$"#,##0.00);[Red]("$"#,##0.00)',
         }
 
